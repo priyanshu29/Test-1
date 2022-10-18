@@ -194,7 +194,7 @@
 </build>
 
   <prerequisites>
-    <maven>3.0.5</maven>
+    <maven>3.6.3</maven>
   </prerequisites>
 
 </project>
