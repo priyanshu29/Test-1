@@ -173,13 +173,6 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>scm:git:git@github.com:gabrielf/maven-samples.git</connection>
-    <developerConnection>scm:git:git@github.com:gabrielf/maven-samples.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/gabrielf/maven-samples</url>
-  </scm>
-
   <build>
   <plugins>
     <plugin>
