@@ -128,6 +128,17 @@
         <version>8.0.0.M1</version>
       </plugin>
     </plugins>
+ 
+    <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${your.maven.surefire.version.here}</version>
+        <configuration>
+            <trimStackTrace>false</trimStackTrace>
+        </configuration>
+    </plugin>
+  </plugins>       
   </build>
 
   <dependencies>
@@ -179,19 +190,6 @@
     <tag>HEAD</tag>
     <url>http://github.com/gabrielf/maven-samples</url>
   </scm>
-
-  <build>
-  <plugins>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${your.maven.surefire.version.here}</version>
-        <configuration>
-            <trimStackTrace>false</trimStackTrace>
-        </configuration>
-    </plugin>
-  </plugins>
-</build>
 
   <prerequisites>
     <maven>3.6.3</maven>
