@@ -129,7 +129,7 @@
 
     <dependency>
       <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>2.2.1-b03
+      <artifactId>servlet-api</artifactId>
       <version>3.0-alpha-1</version>
     </dependency>
 
